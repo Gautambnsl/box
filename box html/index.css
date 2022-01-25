@@ -1,0 +1,107 @@
+
+/* *{
+    margin: 25px;
+    padding: auto;
+} */
+body{
+    margin: 150px;
+    padding: auto;
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);
+}
+.main{
+    width: 300px;
+    height: 120px;
+    position: relative;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.40);
+    box-sizing: border-box;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+
+img{
+    margin-right: -20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.dp{
+    position:absolute;
+    top: -15px;
+}
+
+
+
+
+.contentOne{
+    padding-top: 10px;
+    text-shadow: black;
+    /* border: 2px solid black */
+    /* text-shadow: 0 0 3px #0f0c0c, 0 0 5px #0c0c0e; */
+}
+
+.contentOne .title{
+    text-shadow: 0 0 3px #0f0c0c, 0 0 5px #0c0c0e;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.contentOne span{
+    color: rgb(187, 173, 173);
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.contentOne button{
+color: white;
+background-color: rgba(156, 142, 142, 0.671);
+border: none;
+border-radius: 1px;
+padding: 0px 15px;
+display: block;
+font-size: 16px;
+position:absolute;
+bottom: 25px;
+
+}
+
+.contentTwo{
+    font-weight: 700;
+    padding-top: 10px;
+    text-shadow: black;
+    /* border: 2px solid black */
+
+}
+
+.contentTwo .price{
+    text-align: right;
+    display: block;
+    color: turquoise;
+    text-shadow: 0 0 3px #0f0c0c, 0 0 5px #0c0c0e;
+}
+
+.contentTwo span{
+    margin-top: 2px;
+    text-align: right;
+    display: block;
+    font-size: 9px;
+    color: white;
+    
+    
+}
+
+.contentTwo button{
+    background-color: rgba(255,255,255,0);
+    display: block;
+    color: white;
+    border: 0.5px solid white;
+    position:absolute;
+    bottom: 25px;
+}
